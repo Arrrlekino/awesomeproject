@@ -1,4 +1,4 @@
-<div class="grid grid-cols-4 ">
+<div class="container min-h-screen grid grid-cols-[12rem,1fr]">
   <div class="label self-start col-span-1">
 
     <!--
@@ -50,7 +50,7 @@
    </div>
 </div>
   </div>
-    <div class="self-start col-start-2 col-span-4">
+    <div class="container self-start col-start-2 col-span-4">
     <div class="flex-1 flex flex-col">
 		<nav class="px-4 flex justify-between bg-white h-16 border-b-2 text-gray-500">
 			<!-- top bar left -->
@@ -92,5 +92,121 @@
 			</ul>
 		</nav>
 	</div>
-  </div>
+
+  <!-- </div> -->
+  <!-- Body start -->
+
+<div class="container self-start col-start-2 col-span-4 bg-blue-100 justify-around">
+
+
+        <div class=" h-20 grid grid-cols-[12rem,auto,auto] px-7  py-1">
+          <div class="py-3">
+            <div class=" w-200 px-4 bg-white-200 mr-2 font-black text-3xl">Dashboard</div>
+
+          </div>
+
+            <div class="flex flex-shrink-0 h-10 w-40 bg-white shadow-lg rounded-lg px-4 py-6 mx-4 my-4 justify-self-end place-items-center text-center">
+              <div class="rounded-sm h-8 w-200 px-4 bg-white-200 flex-shrink-0">Today's Tasks</div>
+
+            </div>
+            <div class="flex flex-shrink-0 h-10 w-40 bg-white shadow-lg rounded-lg px-4 py-6 mx-4 my-4 justify-self-end place-items-center text-center">
+
+              <div class="rounded-sm h-8 w-200 px-4 bg-white-200 flex-shrink-0">Payment Issues</div>
+            </div>
+
+        </div>
+
+     <div class=" place-content-around grid grid-cols-6 gap-4 items-start mt-8 mx-auto px-8">
+          <div class="col-span-6 justify-evenly items-center sm:col-span-6 md:col-span-3 lg:col-span-2 xl:col-span-2">
+           <div class="col-span-6 sm:col-span-6 md:col-span-3 lg:col-span-2 xl:col-span-2">
+              <div class="bg-white shadow-lg rounded-lg px-4 py-6 mx-4 my-4">
+                <div class="mx-auto h-284 bg-white-400 text-gray-400 rounded-md">Total Outstanding</div>
+
+              </div>
+              <div class="bg-white shadow-lg rounded-lg px-4 py-6 mx-4 my-4">
+                <div class="mx-auto h-284 bg-white-400 text-gray-400  rounded-md">Total Past Due</div>
+
+              </div>
+              <div class="bg-white shadow-lg rounded-lg px-4 py-6 mx-4 my-4">
+                <div class="mx-auto h-284 bg-white-400 text-gray-400  rounded-md">Customers Past Due</div>
+
+              </div>
+              <div class="bg-white shadow-lg rounded-lg px-4 py-6 mx-4 my-4">
+                <div class="mx-auto h-284 bg-white-400 text-gray-400  rounded-md">Days Past Due</div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-span-6 sm:col-span-6 md:col-span-3 lg:col-span-2 xl:col-span-2">
+            <div class="flex  justify-between items-stretch  py-7 mx-4 my-4">
+              <div class="flex-grow mr-2">Upcoming Payments</div>
+
+              <button class="bg-white flex-shrink-0 px-4 rounded text-xs">View more</button>
+            </div>
+
+            <div class="bg-white self-item-pidding-left-0 item-pidding-right-0 pidding-top-0 shadow-lg rounded-lg   mx-4 my-4">
+              <div class="p-2 bg-gray-100 rounded-t-lg">First gray</div>
+              <div class="p-2 bg-white">First white</div>
+              <div class="p-2 bg-gray-100">2 gray</div>
+              <div class="p-2 bg-white">2 white</div>
+              <div class="p-2 bg-gray-100">gray 3</div>
+              <div class="p-2 bg-white rounded-b-lg">white 3</div>
+            </div>
+
+
+
+          </div>
+          <div class="col-span-6 sm:col-span-6 md:col-span-3 lg:col-span-2 xl:col-span-2">
+            <div class="flex justify-between items-stretch  py-7 mx-4 my-4">
+              <div class="flex-grow  mr-2">Recent Transactions</div>
+
+              <button class="bg-white flex-shrink-0 px-4 rounded text-xs">View more</button>
+            </div>
+            <div class="bg-white self-item-pidding-left-0 item-pidding-right-0 pidding-top-0 shadow-lg rounded-lg   mx-4 my-4">
+              <div class="p-2 bg-gray-100 rounded-t-lg">First gray</div>
+              <div class="p-2 bg-white">First white</div>
+              <div class="p-2 bg-gray-100">2 gray</div>
+              <div class="p-2 bg-white">2 white</div>
+              <div class="p-2 bg-gray-100">gray 3</div>
+              <div class="p-2 bg-white rounded-b-lg">white 3</div>
+            </div>
+          </div>
+        </div>
+
+          <div class="grid grid-cols-6 gap-4 items-start mt-8 mx-auto px-8">
+
+            <div class="col-span-6 sm:col-span-6 md:col-span-3 lg:col-span-2 xl:col-span-2">
+              <div class="bg-white shadow-lg rounded-lg px-4 py-6 mx-4 my-4">
+                <div class="mx-auto h-284 bg-white-400   rounded-md">Days Past Due</div>
+
+
+              </div>
+            </div>
+
+
+            <div class="col-span-6 sm:col-span-6 md:col-span-3 lg:col-span-2 xl:col-span-2">
+              <div class="bg-white shadow-lg rounded-lg px-4 py-6 mx-4 my-4">
+                <div class="mx-auto h-88 bg-white-200 rounded-md">Days Past Due Over Time</div>
+
+
+              </div>
+            </div>
+
+            <div class="col-span-6 sm:col-span-6 md:col-span-3 lg:col-span-2 xl:col-span-2">
+              <div class="bg-white shadow-lg rounded-lg px-4 py-6 mx-4 my-4">
+                <div class="mx-auto h-88 bg-white-200  rounded-md">Outsiding vs. Past Due Over Time</div>
+
+
+              </div>
+            </div>
+
+          </div>
+
+
+
+</div>
+
+
+  <!-- body end -->
+    </div>
 </div>
